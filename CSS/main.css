@@ -1,0 +1,28 @@
+*{/*selecionar tudo que tem na pagina*/
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header li{ /*deixa os elementos selecionados organizados em linha, "um do lado do outro"*/
+    display: inline;
+}
+
+.container{
+    width: 1366px;
+    margin: 0 auto;
+}
+
+.articles{/*neste comando estamos definindo que o artigos fiquem um do lado do outro "display: flex;" e dizendo que se chegar ao limite da pagina é para criar uma nova linha "flex-wrap: wrap;, na parte "justify-content: space-between;" estou dizendo que os 10% que sobraram na divisão dos artigos devem ser divididos entrem eles e ter esse espaçamento para as margens*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles article img {
+    height: 180px;
+}
+
+.articles article{/*Limita o tamanho dos artigos, por exemplo a pagina tem 100% se queremos 3 artigos por linha definimos que o tamanho de cada artigo é de 30%*/
+    width: 30%;
+}
