@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 1366px;
+    margin: 0 auto;
+}
+
+body > header{
+    background-color: rgba(172, 138, 205, 0.548);
+    padding: 16px;
+    color: black;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header li {
+    display: inline;
+}
+
+header li a{
+    color: black;
+    font-size: 18px;
+    margin: 0 8px;
+}
