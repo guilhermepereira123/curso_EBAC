@@ -3,20 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Vought - Call your super</title>
     <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Josefin+Sans&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
         <div class="container">
-            <h1>FAGGONI</h1>
+            <h1>VOUGHT</h1>
             <nav>
                 <ul>
                     <li>
-                        <a href="#">Sobre</a>
+                        <a href="#about">Supers</a>
                     </li>
                     <li>
-                        <a href="#">Contacto</a>
+                        <a href="#contact">Contact</a>
                     </li>
                 </ul>
             </nav>
@@ -24,9 +27,52 @@
     </header>
     <section id="about">
         <div class="container">
-            <h2>FAGGONI STORE</h2>
-            
+            <h2>ABOUT</h2>
+            <div class="article">
+                <img src="imagens/the_7_vought.png" alt="Picture the">
+                <article>
+                    <p>At Vought Corporation, we present to you the quickest way to get in touch with us to request assistance from your super. Get in touch in the contact area.</p>
+                </article>
+            </div>
         </div>
     </section>
+    <section id="contact">
+        <div class="container">
+            <div class="contact-meth">
+                <div>
+                    <h3>Talk to us</h3>
+                    <form>
+                        <input type="text" placeholder="Your name" required>
+                        <input type="email" placeholder="Your e-mail" required>
+                        <input type="tel" placeholder="Your contact" required>
+                        <textarea placeholder="Super do you want" required></textarea>
+                        <button type="submit">Enviar</button>
+                    </form>
+                </div>
+                <div>
+                    <h3>Supers</h3>
+                    <ul class="supers">
+                        <li>
+                            <a href="#" title="Homelander and Soldir boy">
+                                <img src="imagens/homelander_boy.png" alt="Homelander and Soldir boy">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" title="Fire and Sage">
+                                <img src="imagens/fire_sage.jpeg" alt="Fire and Sage">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p>
+                &copy; VOUGHT - Contact
+            </p>
+        </div>
+    </footer>
 </body>
 </html>
