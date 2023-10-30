@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Games Shop - A sua loja de Games</title>
     <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -22,34 +25,43 @@
             </nav>
         </div>
     </header>
-    <section id="loja">
+    <section>
         <div class="container">
-            <img src="imagens/loja.jpg" alt="Frente da loja"><h2>SOBRE A LOJA</h2>
+            <img src="imagens/loja.jpg" alt="Frente da loja" id="foto_loja">
             <div class="articles">
+                <h2>SOBRE A LOJA</h2>
                 <article>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat exercitationem ex sequi asperiores sed consectetur distinctio est quibusdam. Libero eveniet debitis sint delectus modi cupiditate magnam sunt doloremque possimus inventore!</p><br>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat exercitationem ex sequi asperiores sed consectetur distinctio est quibusdam. Libero eveniet debitis sint delectus modi cupiditate magnam sunt doloremque possimus inventore!</p>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis impedit iure voluptates, reprehenderit, totam, quasi unde illum ad commodi dolores placeat explicabo recusandae officiis. Consequatur quo minus recusandae possimus beatae.</p>
-                    <img src="imagens/nintendo.png" alt="Simbolo nintendo">
-                    <img src="imagens/xbox.png" alt="simbolo Xbox">
-                    <img src="imagens/playstation.png" alt="simbolo ps1">
+                    <ul class="brands-list">
+                        <li><img src="imagens/nintendo.png" alt="Simbolo nintendo"></li>
+                        <li><img src="imagens/xbox.png" alt="simbolo Xbox"></li>
+                        <li><img src="imagens/playstation.png" alt="simbolo ps1"></li>
+                    </ul>
                 </article>
             </div>
         </div>
     </section>
-    <section id="contato">
-        <div class="container"><h2>CONTATO</h2>
+    <section>
+        <div class="container">
+            <h2>CONTATO</h2>
             <div id="formulario">
                 <h3>FALE CONOSCO</h3>
-                <ul>
+                <ul class="forms">
                     <form>
-                        <input type="text" placeholder="Seu nome">
-                        <input type="email" placeholder="Seu e-mail">
-                        <input type="tel" placeholder="Seu telefone (opcional)">
-                        <textarea name="Sua mensagem" id="sua mensagem" cols="30" rows="10" placeholder="Sua mensagem"></textarea>
-                        <button type="submit">ENVIAR</button>
+                        <li><input type="text" placeholder="Seu nome"></li>
+                        <li><input type="email" placeholder="Seu e-mail"></li>
+                        <li><input type="tel" placeholder="Seu telefone (opcional)"></li>
+                        <li><textarea name="Sua mensagem" id="sua mensagem" cols="30" rows="10" placeholder="Sua mensagem"></textarea></li>
+                        <li><button type="submit">ENVIAR</button></li>
                     </form>
                 </ul>
             </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+
         </div>
     </section>
 </body>
