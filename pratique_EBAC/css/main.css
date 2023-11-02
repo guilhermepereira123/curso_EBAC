@@ -27,3 +27,11 @@
     background-color: aquamarine;
     cursor: pointer;
 }
+
+#msg{
+    margin-top: 25px;
+    margin-left: 40px;
+    font-size: 25px;
+    background-color: aquamarine;
+    font-style: italic;
+}
