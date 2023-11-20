@@ -12,12 +12,12 @@
         <h2>Depósitos</h2>
     </header>
     <main>
-        <form onsubmit="return false">
+        <form id="form-deposito">
             <input type="text" required name="nome" id="name" placeholder="Nome completo do beneficiário">
             <input type="number" required name="conta" id="conta" placeholder="Número da conta">
             <input type="number" required name="valor" id="valor" placeholder="Valor">
             <textarea  placeholder="Descrição (opcional)"></textarea>
-            <button id="depositar" onclick="return depositou()">DEPOSITAR</button>
+            <button id="depositar">DEPOSITAR</button>
         </form>
         <div id="res"></div>
     </main>
