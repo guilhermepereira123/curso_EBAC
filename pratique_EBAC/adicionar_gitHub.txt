@@ -1,1 +1,1 @@
-Esse arquivo criei para conseguir adicionar esta pasta no GitHub, voce so conseguir ver os arquivos que realmente existem nesta pasta se mudar as branchs. Em cada branch expecifica existe o exercicio relacionado a ela.
+Esse arquivo criei para conseguir adicionar esta pasta no GitHub, voce so consigirar ver os arquivos que realmente existem nesta pasta se mudar as branchs. Em cada branch expecifica existe o exercicio relacionado a ela.
