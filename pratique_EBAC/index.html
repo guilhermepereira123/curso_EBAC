@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pratique BootStrap</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <style>
+        header .container{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        header{
+            background-color: aqua;
+            padding: 10px;
+        }
+        .container nav a{
+            text-decoration: none;
+            color: black;
+            padding: 0 10px;
+            font-weight: bold;
+        }
+        .container form input{
+            margin-bottom: 10px;
+        }
+        .container form button{
+            margin-top: 5px;
+        }
+        footer{
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>EBAC Cadastro</h1>
+            <nav>
+                <a href="#">Sobre loja</a>
+                <a href="#">Destaque</a>
+                <a href="#contacto">Contacto</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <h1 >Lorem criado para ocupar espaço na pagina</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi adipisci neque veniam sint sit facilis dolores, illo officia ratione repellat fugiat, porro maxime architecto itaque, perferendis laborum sunt saepe! Porro.</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi adipisci neque veniam sint sit facilis dolores, illo officia ratione repellat fugiat, porro maxime architecto itaque, perferendis laborum sunt saepe! Porro.</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi adipisci neque veniam sint sit facilis dolores, illo officia ratione repellat fugiat, porro maxime architecto itaque, perferendis laborum sunt saepe! Porro.</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi adipisci neque veniam sint sit facilis dolores, illo officia ratione repellat fugiat, porro maxime architecto itaque, perferendis laborum sunt saepe! Porro.</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi adipisci neque veniam sint sit facilis dolores, illo officia ratione repellat fugiat, porro maxime architecto itaque, perferendis laborum sunt saepe! Porro.</p>
+            <div class="accordion">
+                <div class="accordion-item">
+                    <div class="accordio-header">
+                        <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#form-cadastro"><h2>Faça o contacto</h2></button>
+                    </div>
+                    <div id="form-cadastro" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                            <div class="row">
+                                <div class="col">
+                                    <form>
+                                        <label for="nome" class="form-label">Nome: </label>
+                                        <input type="text" class="form-control" id="nome">
+                                        <label for="email" class="form-label">E-mail:</label>
+                                        <input type="email" class="form-control" id="email">
+                                        <label for="tel" class="form-label">Telefone:</label>
+                                        <input type="tel" class="form-control" id="tel">
+                                        <div class="form-check form-switch">
+                                            <label for="aceito-termos" class="form-check-label">Concordo com os termos</label>
+                                            <input type="checkbox" class="form-check-input" id="aceito-termos">
+                                        </div>
+                                        <button class="btn btn-success">Enviar</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+<footer></footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
